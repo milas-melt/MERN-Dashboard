@@ -8,4 +8,5 @@ weird things happen when I open chrome on while running a server on port 5001: I
 ## Improvements: 
 - Open/Close animations on Sidebar
 
-### Current progress: 1:29:00
+---
+Current progress: 1:29:00
