@@ -156,7 +156,9 @@ const Sidebar = ({
                                         <Typography
                                             key={text}
                                             sx={{ m: "2.25rem 0 1rem 3rem" }}
-                                        ></Typography>
+                                        >
+                                            {text}
+                                        </Typography>
                                     );
                                 }
                                 const lcText = text.toLowerCase();
