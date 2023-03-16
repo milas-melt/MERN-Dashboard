@@ -8,4 +8,4 @@ Following [this](https://www.youtube.com/watch?v=0cPCMIuDk2I) MERN dashboard tut
 
 ---
 
-Current progress: 1:42:00
+Current progress: 2:09:00
