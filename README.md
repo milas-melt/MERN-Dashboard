@@ -7,6 +7,7 @@ Following [this](https://www.youtube.com/watch?v=0cPCMIuDk2I) MERN dashboard tut
 -   Open/Close animations on Sidebar
 -   Add requirements on models (Look at comment of server/client/models/Product.js for example)
 -   In the controllers, improve error handling by catching more specific errors and sending more detailed messages for debug
+-   @ `/client/src/scenes/customers/index.jsx`, change phone number REGEX (now only adapted to USA phone number formatting)
 
 ### not important improvements
 
