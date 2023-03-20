@@ -5,6 +5,12 @@ Following [this](https://www.youtube.com/watch?v=0cPCMIuDk2I) MERN dashboard tut
 ## Improvements:
 
 -   Open/Close animations on Sidebar
+-   Add requirements on models (Look at comment of server/client/models/Product.js for example)
+-   In the controllers, improve error handling by catching more specific errors and sending more detailed messages for debug
+
+### not important improvements
+
+-   @ `client/src/scenes/products/index.jsx`, add some loading animation or something fancy
 
 ---
 
