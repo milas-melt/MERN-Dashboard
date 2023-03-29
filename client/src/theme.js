@@ -1,4 +1,44 @@
 // color design tokens export
+
+/*
+MMC website colour extractor
+extractor: https://www.colorcombos.com/combotester.html?rnd=0&color0=2a032f&color1=2f2000&color2=2f7428&color3=200626&color4=f5333f&color5=4d5cf2&color6=333333&color7=2f4386&color8=e3fc52&color9=280028&color10=dcff00&color11=ebe4d2&color12=148261&color13=6200ee&color14=f5f5f5&color15=b00020&color16=fafafa&color17=d2d6dc&color18=a0aec0&color19=4a5764&color20=c1c9d1&color21=ed5479&color22=eae4d4&color23=f7f4ee&color24=e7ecf0&color25=fdf2f2&color26=9b1c1c&color27=f3faf7&color28=03543f&color29=877aff&color30=ed513d&color31=67a6ac&color32=253246&color33=1a213a&color34=00449e&color35=e6e6e6&color36=9fa6b2&color37=a4cafe&color38=3f83f8&color39=f9fafb&color40=252f3f&color41=6875f5&color42=5850ec&color43=5145cd&color44=f4f5f7&color45=8da2fb&color46=f8b4b4&color47=6b7280&color48=e5e7eb&color49=374151&color50=161e2e&color51=f05252&color52=e02424&color53=771d1d&color54=cddbfe
+
+INDIGOSs:
+    #2a032f
+    #200626
+    #4d5cf2
+    #280028
+    #6200ee
+
+GREENs/YELLOWs:
+    #2f2000
+    #2f7428
+    #e3fc52
+    #dcff00
+    #148261
+
+REDs/PINKs:
+    #f5333f
+    #b00020
+
+BLUEs:
+    #333333
+    #2f4386
+
+GREY/WHITEs
+    #ebe4d2
+    #f5f5f5
+    #fafafa
+    #d2d6dc
+
+... for more info, check the link above
+Note that most of the colors have been generated automatically. With more time,
+I'd make sure to respect the graphic charter and go through all the 55 colors
+detected.
+
+*/
+
 export const tokensDark = {
     grey: {
         0: "#ffffff", // manually adjusted
@@ -27,6 +67,19 @@ export const tokensDark = {
     //     800: "#0d1025",
     //     900: "#070812",
     // },
+
+    primary: {
+        // indigo
+        100: "#dbdefc",
+        200: "#b8befa",
+        300: "#949df7",
+        400: "#717df5",
+        500: "#4d5cf2",
+        600: "#2a032f", // manually adjusted
+        700: "#2e3791",
+        800: "#1f2561",
+        900: "#0f1230",
+    },
     // secondary: {
     //     // yellow
     //     50: "#f0f0f0", // manually adjusted
@@ -41,40 +94,16 @@ export const tokensDark = {
     //     900: "#332a14",
     // },
 
-    // grey: {
-    //     100: "#d7d8da",
-    //     200: "#b0b2b5",
-    //     300: "#888b90",
-    //     400: "#61656b",
-    //     500: "#393e46",
-    //     600: "#2e3238",
-    //     700: "#22252a",
-    //     800: "#17191c",
-    //     900: "#0b0c0e",
-    // },
-
-    primary: {
-        100: "#dbeaff",
-        200: "#b8d5ff",
-        300: "#94c0ff",
-        400: "#71abff",
-        500: "#4d96ff",
-        600: "#3e78cc",
-        700: "#2e5a99",
-        800: "#1f3c66",
-        900: "#0f1e33",
-    },
-
     secondary: {
-        100: "#e1f5e4",
-        200: "#c4eac9",
-        300: "#a6e0ad",
-        400: "#89d592",
-        500: "#6bcb77",
-        600: "#56a25f",
-        700: "#407a47",
-        800: "#2b5130",
-        900: "#152918",
+        100: "#f0f0f0",
+        200: "#f4feba",
+        300: "#eefd97",
+        400: "#e9fd75",
+        500: "#e3fc52",
+        600: "#b6ca42",
+        700: "#889731",
+        800: "#5b6521",
+        900: "#2d3210",
     },
 };
 
